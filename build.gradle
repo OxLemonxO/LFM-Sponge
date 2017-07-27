@@ -1,0 +1,42 @@
+buildscript {
+    repositories {
+        maven {
+            name = 'forge'
+            url = 'http://files.minecraftforge.net/maven'
+        }
+    }
+
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
+    }
+}
+
+plugins {
+    id 'org.spongepowered.plugin' version '0.8.1'
+    id 'net.minecrell.vanillagradle.server' version '2.2-3'
+    id 'io.franzbecker.gradle-lombok' version '1.8'
+}
+
+group = "me.oxlemonxo"
+version = '1.0-SNAPSHOT'
+description = 'An example plugin'
+sourceCompatibility = 1.8
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile 'org.spongepowered:spongeapi:6.0.0'
+    compile group: 'commons-io', name: 'commons-io', version: '2.0.1'
+
+}
+minecraft {
+    version = '1.10.2'
+    mappings = 'stable_29'
+}
+lombok {
+    version = "1.16.18"
+    sha256 = ""
+}

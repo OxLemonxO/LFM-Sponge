@@ -1,0 +1,17 @@
+#################################################
+         ForgeGradle 2.2-SNAPSHOT-unknown        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+
+CONFIGURE SUCCESSFUL
+
+Total time: 8.053 secs
+Download https://repo1.maven.org/maven2/org/projectlombok/lombok/1.16.18/lombok-1.16.18.pom
+Download https://repo1.maven.org/maven2/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar
+Download https://repo1.maven.org/maven2/org/projectlombok/lombok/1.16.18/lombok-1.16.18-sources.jar
+Download https://plugins.gradle.org/m2/io/franzbecker/gradle-lombok/1.8/gradle-lombok-1.8-sources.jar
