@@ -44,7 +44,7 @@ public class LemonFreedomMod
     }
     @Listener
     public void onServerStart(GameStartedServerEvent event) {
-        Sponge.getServer().getConsole().getMessageChannel().getMembers().iterator().next().getMessageChannel().getMembers().iterator().next().getMessageChannel().getMembers().iterator().next().getMessageChannel().getMembers().iterator().next().getMessageChannel().getMembers().iterator().next().getMessageChannel().getMembers().clear();
+        
     }
 
 
